@@ -1,0 +1,15 @@
+<?php
+
+$server_name = "localhost";
+$username = "root";
+$password = "";
+$db = "company";
+
+$conn = mysqli_connect($server_name,$username,$password,$db);
+
+if(!$conn){
+    die("Connection Error!");
+}
+
+
+?>
